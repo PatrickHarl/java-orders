@@ -82,7 +82,7 @@ INSERT INTO ORDERSPAYMENTS (ordnum, paymentid)
                            (10, 4),
                            (11, 2),
                            (12, 1);
-                           
+
 /*
 Must tell hibernate of the id numbers already used.
 The number after with must be greater that the highest number id assigned.
