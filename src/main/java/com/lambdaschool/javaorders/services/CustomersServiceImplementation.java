@@ -54,8 +54,8 @@ public class CustomersServiceImplementation implements CustomersService{
         return orderrepos.findById(id).orElseThrow(() -> new EntityNotFoundException("Order " + id + " Not Found"));
     }
 
-//    @Override
-//    public List<Orders> findOrdersWithAdvanceAmount() {
-//        return orderrepos.findByOrderByAdvancementamountGreaterThan(0);
-//    }
+    @Override
+    public List<Orders> findOrdersWithAdvanceAmount() {
+        return orderrepos.findByAdvanceamountGreaterThan((double)0.0);
+    }
 }

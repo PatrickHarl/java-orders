@@ -29,11 +29,11 @@ public class OrdersController
 
      //http://localhost:2019/orders/advanceamount
 
-//    @GetMapping(value = "/advanceamount", produces = {"application/json"})
-//    public ResponseEntity<?> findOrdersWithAdvanceAmount()
-//    {
-//        List<Orders> myOrders = customersService.findOrdersWithAdvanceAmount();
-//        return new ResponseEntity<>(myOrders, HttpStatus.OK);
-//    }
+    @GetMapping(value = "/advanceamount", produces = {"application/json"})
+    public ResponseEntity<?> findOrdersWithAdvanceAmount()
+    {
+        List<Orders> myOrders = customersService.findOrdersWithAdvanceAmount();
+        return new ResponseEntity<>(myOrders, HttpStatus.OK);
+    }
 
 }

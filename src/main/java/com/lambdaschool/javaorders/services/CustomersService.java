@@ -18,6 +18,6 @@ public interface CustomersService {
 
     Orders findOrderById(long id);
 
-//    List<Orders> findOrdersWithAdvanceAmount();
+    List<Orders> findOrdersWithAdvanceAmount();
 
 }

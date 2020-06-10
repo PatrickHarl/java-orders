@@ -57,12 +57,12 @@ public class Orders {
         this.ordamount = ordamount;
     }
 
-    public double getAdvancementamount() {
+    public double getAdvanceamount() {
         return advanceamount;
     }
 
-    public void setAdvancementamount(double advancementamount) {
-        this.advanceamount = advancementamount;
+    public void setAdvanceamount(double advanceamount) {
+        this.advanceamount = advanceamount;
     }
 
     public String getOrderdescription() {
@@ -94,7 +94,7 @@ public class Orders {
         return "Orders{" +
                 "ordnum=" + ordnum +
                 ", ordamount=" + ordamount +
-                ", advancementamount=" + advanceamount +
+                ", advanceamount=" + advanceamount +
                 ", orderdescription='" + orderdescription + '\'' +
                 ", customer=" + customer +
                 ", payments=" + payments +
